@@ -19,33 +19,35 @@ const Navbar = () => {
           </a>
         </header>
 
-        <ul className="navbar-container">
-          <li className="navbar-item">
-            <a href="#hero" className="navbar-link navbar-link-active">
-              Home
-            </a>
-          </li>
-          <li className="navbar-item">
-            <a href="#" className="navbar-link">
-              New
-            </a>
-          </li>
-          <li className="navbar-item">
-            <a href="#" className="navbar-link">
-              Popular
-            </a>
-          </li>
-          <li className="navbar-item">
-            <a href="#" className="navbar-link">
-              Trending
-            </a>
-          </li>
-          <li className="navbar-item">
-            <a href="#" className="navbar-link">
-              Categories
-            </a>
-          </li>
-        </ul>
+        <div className="items-container">
+          <ul className="links">
+            <li className="navbar-item">
+              <a href="#hero" className="navbar-link">
+                Home
+              </a>
+            </li>
+            <li className="navbar-item">
+              <a href="#" className="navbar-link">
+                New
+              </a>
+            </li>
+            <li className="navbar-item">
+              <a href="#" className="navbar-link">
+                Popular
+              </a>
+            </li>
+            <li className="navbar-item">
+              <a href="#" className="navbar-link">
+                Trending
+              </a>
+            </li>
+            <li className="navbar-item">
+              <a href="#" className="navbar-link">
+                Categories
+              </a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
   );
