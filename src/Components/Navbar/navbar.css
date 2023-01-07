@@ -116,7 +116,7 @@
   .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 3rem 5rem 0.5rem;
+    padding: 3rem 8rem 0.5rem;
   }
 
   .navbar-menu-mobile {
