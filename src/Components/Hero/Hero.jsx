@@ -3,14 +3,14 @@ import heroImg from "../../assets/images/image-web-3-desktop.jpg";
 
 const Hero = () => {
   return (
-    <section className="hero">
-      <div>
-        <img className="hero__img" src={heroImg} alt="" />
+    <section className="hero" id="hero">
+      <div className="hero__img-container">
+        {/* <img className="hero__img" src={heroImg} alt="" /> */}
       </div>
-      <div>
+      <div className="hero__title-container">
         <h1 className="hero__title">The Bright Future of Web 3.0?</h1>
       </div>
-      <div>
+      <div className="hero__p-container">
         <p className="hero__p">
           We dive into the next evolution of the web that claims to put the
           power of the platforms back into the hands of people. But is it really
