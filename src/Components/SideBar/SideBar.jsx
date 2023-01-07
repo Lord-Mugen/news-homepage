@@ -7,20 +7,23 @@ const Sidebar = () => {
         <div>
           <h2 className="sideBar__title">New</h2>
         </div>
-        <div>
+        <div className="sideBar__text-container">
           <h3 className="sideBar__subTitle">Hydrogen VS Ekectric Cars</h3>
           <p className="sideBar__p">
             Will hydrogen-fueled cars ever catch up to EVs?
           </p>
         </div>
-        <div>
+        <hr className="sideBar__line" />
+        <div className="sideBar__text-container">
           <h3 className="sideBar__subTitle">The Downsides of AI Artistry</h3>
           <p className="sideBar__p">
             What are the possible adverse effects of on-demand AI image
             generation
           </p>
         </div>
-        <div>
+        <hr className="sideBar__line" />
+
+        <div className="sideBar__text-container">
           <h3 className="sideBar__subTitle">Is VC Funding Drying Up</h3>
           <p className="sideBar__p">
             Private funding by VC firms is down 50% YOY, We take a look at what

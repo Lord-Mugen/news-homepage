@@ -10,13 +10,33 @@
   color: var(--Soft-orange);
 }
 
+.sideBar__text-container:nth-of-type(2),
+.sideBar__text-container:nth-of-type(3) {
+  margin-bottom: 2rem;
+}
+
 .sideBar__subTitle {
   font-family: "inter-bold";
   color: var(--white);
+  margin-bottom: 1px;
+}
+
+.sideBar__subTitle:nth-last-of-type(2),
+.sideBar__subTitle:nth-last-of-type(3) {
+  margin-top: 3rem;
 }
 
 .sideBar__p {
-  /* margin: 0; */
   font-family: "inter-regular";
+  color: var(--Gray);
+  margin-top: 0.6rem;
+  line-height: 1.75rem;
+}
+
+.sideBar__line {
+  border: 0;
+  border-top: 1px solid var(--Gray);
+  height: 0px;
+  background-color: var(--Gray);
   color: var(--Gray);
 }

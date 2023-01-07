@@ -14,12 +14,12 @@ const Navbar = () => {
           <a href="#navbar-header" className="navbar-menu-mobile open">
             <img src={openIcon} alt="menu icon" />
           </a>
-          <a href="#" className="navbar-menu-mobile close">
-            <img src={closeIcon} alt="menu icon" />
-          </a>
         </header>
 
         <div className="items-container">
+          <a href="#" className="navbar-menu-mobile close">
+            <img src={closeIcon} alt="menu icon" />
+          </a>
           <ul className="links">
             <li className="navbar-item">
               <a href="#hero" className="navbar-link">
