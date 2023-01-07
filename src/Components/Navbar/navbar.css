@@ -1,0 +1,172 @@
+.navbar {
+  background-color: var(--white);
+}
+
+.navbar-header {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-container {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  list-style: none;
+}
+
+.navbar-link {
+  /* font-family: "Quicksand", sans-serif; */
+  color: var(--dark-blue);
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: var(--red);
+}
+
+/* .navbar-link:hover:after {
+  width: 100%;
+} */
+
+/* a {
+  text-decoration: none;
+} */
+
+.navbar-menu-mobile {
+  color: var(--dark-blue);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-link {
+  font-size: 2rem;
+}
+
+.brand {
+  width: 80%;
+}
+
+/* .contact-nav {
+  color: var(--white);
+  border: 1px solid #a4161a;
+  padding: 0.6em 0.85em;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1em;
+} */
+
+.navbar-container {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  background: var(--red);
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.4s ease-in;
+}
+
+#navbar-header:target .navbar-container {
+  height: 100vh;
+}
+
+#navbar-header:target .open {
+  display: none;
+}
+
+#navbar-header:target .close {
+  display: flex;
+}
+
+.open-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.close-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.close {
+  display: none;
+  height: 34px;
+  z-index: 1;
+}
+
+/* MEDIAQUERYS */
+@media (min-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-menu-mobile {
+    display: none;
+  }
+
+  .navbar-container {
+    height: auto;
+    flex-direction: row;
+    position: static;
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+  .brand-link {
+    padding-left: 0.5em;
+    font-size: clamp(1.2rem, 5vw, 3rem);
+  }
+
+  .navbar-link {
+    font-size: clamp(1.2rem, 5vw, 1rem);
+  }
+
+  .contact-nav {
+    border: 2px solid #a4161a;
+    padding: 0.3em 0.9em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .brand-link {
+    padding-left: 1em;
+  }
+
+  .navbar-link {
+    font-size: clamp(1.2rem, 5vw, 1.5rem);
+  }
+
+  .contact-nav {
+    border: 2px solid #a4161a;
+    padding: 0.3em 0.9em;
+  }
+}
+
+@media (min-width: 1600px) {
+  .brand-link {
+    padding-left: 1.2em;
+  }
+
+  .navbar-link {
+    font-size: clamp(1.2rem, 5vw, 1.7rem);
+  }
+}
