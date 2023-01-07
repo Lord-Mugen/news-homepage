@@ -1,0 +1,24 @@
+@media (min-width: 62rem) {
+  #container {
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+      "hero hero sideBar"
+      "hero hero sideBar"
+      "cards cards cards";
+    grid-template-rows: 50px 1fr 30px;
+    grid-template-columns: 150px 1fr 320px;
+  }
+
+  #container > .container__hero {
+    grid-area: hero;
+  }
+
+  #container > .sideBar {
+    grid-area: sideBar;
+  }
+
+  #container > .container__cards {
+    grid-area: cards;
+  }
+}

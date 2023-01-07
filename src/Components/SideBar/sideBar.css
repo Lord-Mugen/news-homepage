@@ -1,3 +1,22 @@
-.sideBar {
-  background: green;
+.sideBar__container {
+  background: var(--dark-blue);
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+.sideBar__title {
+  margin-top: 0;
+  font-family: "inter-extraBold";
+  color: var(--Soft-orange);
+}
+
+.sideBar__subTitle {
+  font-family: "inter-bold";
+  color: var(--white);
+}
+
+.sideBar__p {
+  /* margin: 0; */
+  font-family: "inter-regular";
+  color: var(--Gray);
 }

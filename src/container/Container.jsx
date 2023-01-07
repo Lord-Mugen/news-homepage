@@ -5,7 +5,7 @@ import Cards from "../Components/Cards/Cards";
 
 const Container = () => {
   return (
-    <div className="container">
+    <div className="container" id="container">
       <section className="container__hero">
         <Hero />
       </section>

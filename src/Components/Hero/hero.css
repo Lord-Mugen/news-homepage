@@ -1,6 +1,6 @@
 .hero {
-  /* background-color: red; */
   width: 100%;
+  margin-right: 2rem;
 }
 
 .hero__img-container {
@@ -17,6 +17,7 @@
 
 .hero__title {
   font-family: "inter-extraBold";
+  max-width: 390px;
 }
 
 .hero__p {
@@ -24,6 +25,7 @@
   font-size: 0.9375rem;
   color: var(--Dark-gray);
   line-height: 1.7rem;
+  max-width: 500px;
 }
 
 .hero__btn {
@@ -40,10 +42,25 @@
 }
 
 /* MEDIAQUERY */
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   #hero {
     display: grid;
     width: 100%;
+    grid-template-areas:
+      "img img"
+      "h1 p";
+  }
+
+  #hero > .hero__img-container {
+    grid-area: img;
+  }
+
+  #hero > .hero__title {
+    grid-area: h1;
+  }
+
+  #hero > .hero__p {
+    grid-area: p;
   }
 
   .hero__img-container {
