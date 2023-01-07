@@ -51,8 +51,8 @@
 
 .navbar-menu-mobile {
   color: var(--dark-blue);
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,7 +95,7 @@
 }
 
 /* MEDIAQUERYS */
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .items-container {
     justify-content: center;
     align-items: center;
@@ -112,11 +112,10 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 62rem) {
   .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 3rem 8rem 0.5rem;
   }
 
   .navbar-menu-mobile {

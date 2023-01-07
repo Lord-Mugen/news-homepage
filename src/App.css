@@ -1,4 +1,13 @@
 #root {
-  max-width: 1920px;
+  max-width: 120rem;
   margin: 0 auto;
+  padding: 1rem;
+  background-color: var(--white);
+  /* text-align: center; */
+}
+
+@media (min-width: 62rem) {
+  #root {
+    padding: 3rem 8rem;
+  }
 }
