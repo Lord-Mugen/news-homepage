@@ -1,6 +1,15 @@
 .container {
   margin-top: 1.3rem;
 }
+.container__card {
+  height: auto;
+}
+
+@media (min-width: 42rem) {
+  .container__hero {
+    margin-right: 1.5rem;
+  }
+}
 
 @media (min-width: 62rem) {
   #container {
@@ -9,7 +18,8 @@
     grid-template-areas:
       "hero hero sideBar"
       "hero hero sideBar"
-      "cards cards cards";
+      "card card card"
+      "card card card";
     grid-template-rows: 50px 1fr 30px;
     grid-template-columns: 150px 1fr 320px;
   }
@@ -22,7 +32,12 @@
     grid-area: sideBar;
   }
 
-  #container > .container__cards {
-    grid-area: cards;
+  #container > .container__card {
+    grid-area: card;
+  }
+
+  .container__card {
+    display: flex;
+    align-items: center;
   }
 }

@@ -1,12 +1,9 @@
 import "./hero.css";
-import heroImg from "../../assets/images/image-web-3-desktop.jpg";
 
 const Hero = () => {
   return (
     <section className="hero" id="hero">
-      <div className="hero__img-container">
-        {/* <img className="hero__img" src={heroImg} alt="" /> */}
-      </div>
+      <div className="hero__img-container"></div>
       <div className="hero__title-container">
         <h1 className="hero__title">The Bright Future of Web 3.0?</h1>
       </div>
