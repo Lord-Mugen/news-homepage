@@ -9,9 +9,9 @@
 
 .card__img {
   width: 30%;
-  max-width: 200px;
+  max-width: 12.5rem;
   height: 30%;
-  min-height: 120px;
+  min-height: 7.5rem;
   margin-right: 1rem;
 }
 
@@ -24,6 +24,7 @@
 .card__title {
   font-family: "inter-extraBold";
   margin-bottom: 0;
+  cursor: pointer;
 }
 .card__title:hover {
   color: var(--red);
@@ -32,7 +33,7 @@
 .card__p {
   font-family: "inter-regular";
   color: var(--Dark-gray);
-  line-height: 1.5rem;
+  line-height: 1.25rem;
 }
 
 @media (min-width: 42rem) {
@@ -52,6 +53,7 @@
 @media (min-width: 62rem) {
   .card {
     margin-right: 1rem;
+    align-items: center;
   }
 
   .card__img {
@@ -63,10 +65,5 @@
 
   .card__title {
     margin-top: 0.6rem;
-    /* font-size: 1rem; */
-  }
-
-  .card__p {
-    /* font-size: 0.5rem; */
   }
 }

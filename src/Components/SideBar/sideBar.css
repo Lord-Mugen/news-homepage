@@ -18,7 +18,8 @@
 .sideBar__subTitle {
   font-family: "inter-bold";
   color: var(--white);
-  margin-bottom: 1px;
+  margin-bottom: 0.0625rem;
+  cursor: pointer;
 }
 
 .sideBar__subTitle:nth-last-of-type(2),
@@ -39,8 +40,8 @@
 
 .sideBar__line {
   border: 0;
-  border-top: 1px solid var(--Gray);
-  height: 0px;
+  border-top: 0.0625rem solid var(--Gray);
+  height: 0rem;
   background-color: var(--Gray);
   color: var(--Gray);
 }
@@ -51,6 +52,6 @@
   }
 
   .sideBar {
-    min-height: 30rem;
+    min-height: auto;
   }
 }

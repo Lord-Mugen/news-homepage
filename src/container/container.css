@@ -20,8 +20,8 @@
       "hero hero sideBar"
       "card card card"
       "card card card";
-    grid-template-rows: 50px 1fr 30px;
-    grid-template-columns: 150px 1fr 320px;
+    grid-template-rows: 3.125rem 1fr 1.875rem;
+    grid-template-columns: 9.375rem 1fr 20rem;
   }
 
   #container > .container__hero {
@@ -39,5 +39,6 @@
   .container__card {
     display: flex;
     align-items: center;
+    margin-top: 3rem;
   }
 }
