@@ -3,3 +3,12 @@
 
 ## Link to the project 
 https://news-homepage-lord-mugen.vercel.app/
+
+## Technologies used:
+- React: jsx and hooks.
+- Vite: npm create vite@latest.
+- Css: Bem.
+- Icons: iconify.
+
+## Install locally
+To install the project locally, you can use the following command from the terminal: **npm install**.
